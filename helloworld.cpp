@@ -1,14 +1,17 @@
 
 #include <iostream>
-#include <vector>
+#include <string>
+
+
 using namespace std;
 
 int main()
 {
-    vector<int> arr;
+    string s1 = "++X";
 
-    arr.push_back(1);
-    arr.push_back(2);
+    string s2 = "++";
 
-    cout<<arr[0];
+    bool isFound = s1.find(s2) != string::npos;
+
+    cout<<isFound;
 }
