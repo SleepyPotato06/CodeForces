@@ -15,7 +15,8 @@ int main()
     
   for(int i=0; i < n; i++){
         int y = words[i].length();
-        if(y >= 10){
+        
+        if(y > 10){
             int z = y-2;
             std::cout<<words[i].at(0)<<z<<words[i].at(y-1)<<std::endl;
         }else{

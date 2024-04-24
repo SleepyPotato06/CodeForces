@@ -1,17 +1,17 @@
 // Example program
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main()
 {
   int w;
-    
-  std::cin>>w;
+  cin>>w;
   
   if((w % 2) == 0 && w != 2){
-    std::cout<<"YES";  
+    cout<<"YES";  
    }else{
-    std::cout<<"NO";    
+    cout<<"NO";    
    }
  
   return 0;
